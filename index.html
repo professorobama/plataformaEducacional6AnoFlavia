@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="description" content="Trilha do Saber 6º Ano: plataforma educativa com quizzes, fases, relatório pedagógico e 14 disciplinas." />
+  <meta name="theme-color" content="#5c6bc0" />
+  <title>Trilha do Saber 6º Ano Flávinha</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#app">Pular para o conteúdo principal</a>
+
+  <div class="decor" aria-hidden="true">
+    <span>📚</span><span>🧠</span><span>🔬</span><span>🌎</span><span>🤖</span><span>🎨</span><span>🏀</span><span>💻</span>
+  </div>
+
+  <header class="topbar" aria-label="Cabeçalho da plataforma">
+    <button id="backBtn" class="icon-button hidden" type="button" title="Voltar" aria-label="Voltar para a tela anterior">←</button>
+
+    <div class="brand" aria-label="Trilha do Saber 6º Ano">
+      <div class="brand-logo" aria-hidden="true">🚀</div>
+      <div class="brand-text">
+        <strong>Trilha do Saber da Flávinha</strong>
+        <span>6º Ano • Plataforma de Estudos da Flávinha</span>
+      </div>
+    </div>
+
+    <div class="topbar-actions">
+      <button id="reportBtn" class="icon-button" type="button" title="Relatório" aria-label="Abrir relatório pedagógico">📊</button>
+      <button id="fullscreenBtn" class="icon-button" type="button" title="Tela cheia" aria-label="Ativar ou sair da tela cheia">⛶</button>
+      <button id="soundBtn" class="icon-button" type="button" title="Som" aria-label="Som ativado">🔊</button>
+    </div>
+  </header>
+
+  <main id="app" class="app" tabindex="-1">
+    <section class="panel loading-panel">
+      <div class="loading-icon" aria-hidden="true">⏳</div>
+      <h1>Carregando plataforma...</h1>
+      <p>Se esta mensagem permanecer por muito tempo, atualize a página ou verifique se o JavaScript está habilitado.</p>
+    </section>
+  </main>
+
+  <noscript>
+    <section class="panel noscript-panel">
+      <h2>JavaScript desativado</h2>
+      <p>Esta plataforma precisa de JavaScript para funcionar. Ative o JavaScript no navegador e recarregue a página.</p>
+    </section>
+  </noscript>
+
+  <footer class="footer">
+    <p>Desenvolvido por Jailson Costa dos Santos</p>
+    <p>Pai da Flávia Costa Oliveira 2026</p>
+    <button id="resetBtn" class="text-button" type="button">Reiniciar progresso</button>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
